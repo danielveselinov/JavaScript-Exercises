@@ -1,5 +1,5 @@
 let variable = prompt("Please enter random number")
-var list = document.querySelectorAll('#list li')
+let list = document.querySelectorAll('#list li')
 
 if (isNaN(variable)) {
     alert(`It's not a valid value, only number are allowed`)
